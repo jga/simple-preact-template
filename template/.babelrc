@@ -1,11 +1,9 @@
 {
     "presets": [
-        "@babel/preset-env",
         ["preact-cli/babel", { "modules": "commonjs" }]
     ],
     "plugins": [
         ["transform-react-jsx", { "pragma":"h" }],
-        ["@babel/plugin-proposal-decorators", { "legacy":true }]
     ]
 }
 
