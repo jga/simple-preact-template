@@ -1,11 +1,12 @@
 import { h, render, Component } from 'preact';
 import Router from 'preact-router';
 import { connect } from 'preact-redux'
+import Home from '../components/Home'
 
 const AppComponent = () => (
   <div class='app__router-container'>
     <Router>
-      <ContactContainer path='/' />
+      <Home path='/' />
     </Router>
   </div>
 )
