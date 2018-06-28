@@ -13,6 +13,5 @@ const Main = () => (
   </Provider>
 )
 
-// render an instance of Clock into <body>:
 render(<Main />, document.getElementById('app'));
 

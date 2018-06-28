@@ -3,6 +3,7 @@ import Router from 'preact-router';
 import { connect } from 'preact-redux'
 import Home from '../components/Home'
 
+
 const AppComponent = () => (
   <div class='app__router-container'>
     <Router>
@@ -21,10 +22,8 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-
 const App = connect(
   mapStateToProps, mapDispatchToProps
 )(AppComponent)
 
 export default App
-
